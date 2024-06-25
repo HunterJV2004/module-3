@@ -1,3 +1,8 @@
+#Hunter Vevia
+#M03_Lab.py
+#The program creates a parent class that hold a vehicle type and an automobile class that asks a user do define the features of a car
+#vehicleType - string, stores type of vehicle | year - int, stores year of car | make - string, make of car | model - string, model of car | doors - int,number of doors | roof - string, stores type of roof | x - automobile object, stores the created automobile object
+
 class Vehicle:
     def __init__(self):
         self.vehicleType = input("What kind of vehicle is it? (car, truck, plane, boat, or a broomstick)")
